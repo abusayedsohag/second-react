@@ -40,7 +40,7 @@ const Countris = () => {
                 </ul>
                 <div className="flags-container">
                     {
-                        VisitedFlags.map(flag => <img src={flag.flags.png}></img>)
+                        VisitedFlags.map(flag => <img src={flag}></img>)
                     }
                 </div>
             </div>

@@ -24,7 +24,7 @@ const Country = ({country, handleVisitedCountries, handleVisitedFlags}) => {
             <h5 className={`${Toggle && 'textColor'}`}>Area : {area}</h5>
             <h5 className={`${Toggle && 'textColor'}`}>Code : {cca3}</h5>
             <button onClick={handleButton}>{Toggle ? 'Visited' : 'Visite Here'}</button>
-            <button onClick={() => handleVisitedFlags({flags})}>Flag Add</button>
+            <button onClick={() => handleVisitedFlags(flags.png)}>Flag Add</button>
             {Toggle ? 'Visiting': 'Visite Done'}
         </div>
     );
