@@ -1,0 +1,17 @@
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.flags-container {
+    display: grid;
+    grid-template-columns: repeat(25 ,1fr);
+    column-gap: 1px;
+}
+
+.flags-container img{
+    height: 20px;
+    width: 38px;
+    border: 1px solid skyblue;
+}

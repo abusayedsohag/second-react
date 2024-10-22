@@ -3,9 +3,20 @@
     margin: 10px;
     padding: 10px;
     border-radius: 8px;
+    text-align: left;
 }
 
 .flag {
     border: 4px solid skyblue;
     border-radius: 8px;
+    height: 170px;
+    width: 330px;
+}
+
+.visited {
+    background-color: white;
+}
+
+.textColor {
+    color: black;
 }
